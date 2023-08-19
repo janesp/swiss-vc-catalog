@@ -33,7 +33,7 @@ Generated using [DbSchema](https://dbschema.com)
 
 
 ### Entity INSTANCE.Employee Core 
-Common core information for employee.
+Common core information for employee - combination of person and employee information.
 &gt;&gt; review - separation of person (role employee) and employer (organization) information
 
 | | | | |
@@ -54,81 +54,6 @@ Common core information for employee.
 |---|---|---|
 | &#128269;  | pk\_Employee Core | ON ID|
 | &#128273;  | pk\_Employee Core\_0 | ON Employee ID|
-
-
-
-### Entity INSTANCE.Employee Extended 
-| | | | |
-|---|---|---|---|
-| * &#128273;  | ID| BIGINT  | Technical ID assigned through VC issuing process.\Note - not stable; re-assigned with every revocation / re-issuing cycle. |
-| * | Issue Date| DATE  |  |
-| * &#128273;  &#11016; | Employee ID| VARCHAR(30)  | Exact string match required for reference (upper/lower case, whate spaces, ...). |
-| * | Employer| BIGINT  | Redundant onformation of «Employee Core».\&gt;&gt; Review - remove |
-|  | Operation Site| VARCHAR(100)  | Free text - address or similar. |
-|  | Activity Tyoe| VARCHAR(100)  | Free text.\&gt;&gt; Review - optionally based on list of values |
-|  | Contact Name| VARCHAR(100)  | First name, last name\&gt;&gt; Review - what is the exact purpose of the contact? More than one contact for different activities?\&gt;&gt; Review - reference to person |
-|  | Contact Phone| VARCHAR(100)  | &gt;&gt; Review - reference to person |
-|  | Contact Mail| VARCHAR(100)  | &gt;&gt; Review - reference to person |
-
-
-##### Indexes 
-| | | |
-|---|---|---|
-| &#128273;  | pk\_Employee Extended | ON ID, Employee ID|
-
-##### Relationships
-| | | |
-|---|---|---|
-|  | Employee Extended - Employee Core | ( Employee ID ) ref [INSTANCE.Employee Core](#Employee Core) (Employee ID) |
-
-
-
-
-### Entity INSTANCE.Employee Role 
-| | | | |
-|---|---|---|---|
-| * &#128273;  | ID| BIGINT  | Technical ID assigned through VC issuing process.\Note - not stable; re-assigned with every revocation / re-issuing cycle. |
-| * | Issue Date| DATE  |  |
-| * &#128273;  &#11016; | Employee ID| VARCHAR(30)  | Exact string match required for reference (upper/lower case, whate spaces, ...). |
-|  | Role| VARCHAR(100)  | &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text. |
-|  | Function| VARCHAR(100)  | &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text. |
-|  | Organisational Unit| VARCHAR(100)  | &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text. |
-
-
-##### Indexes 
-| | | |
-|---|---|---|
-| &#128273;  | pk\_Employee Role | ON ID, Employee ID|
-
-##### Relationships
-| | | |
-|---|---|---|
-|  | Employee Role - Employee Core | ( Employee ID ) ref [INSTANCE.Employee Core](#Employee Core) (Employee ID) |
-
-
-
-
-### Entity INSTANCE.Employer Address 
-| | | | |
-|---|---|---|---|
-| * &#128273;  | ID| BIGINT  | Technical ID assigned through VC issuing process.\Note - not stable; re-assigned with every revocation / re-issuing cycle. |
-| * | Issue Date| DATE  |  |
-| * &#128273;  &#11016; | Empoyee ID| BIGINT  | Exact string match required for reference (upper/lower case, whate spaces, ...). |
-|  | Street Address| VARCHAR(100)  |  |
-|  | Postal Code| VARCHAR(10)  |  |
-|  | City| VARCHAR(100)  |  |
-
-
-##### Indexes 
-| | | |
-|---|---|---|
-| &#128273;  | pk\_Employer Address | ON ID, Empoyee ID|
-
-##### Relationships
-| | | |
-|---|---|---|
-|  | Employer Address - Employee Core | ( Empoyee ID ) ref [INSTANCE.Employee Core](#Employee Core) (Employee ID) |
-
 
 
 
@@ -160,8 +85,36 @@ Employment information of a person (employee).
 
 
 
+### Entity INSTANCE.Office Address 
+Employee office address, typically as of internal directory.
+Te be differentiated from offical organization address (as of trade register), mailing address, delivery address., ...
+
+| | | | |
+|---|---|---|---|
+| * &#128273;  | ID| BIGINT  | Technical ID assigned through VC issuing process.\Note - not stable; re-assigned with every revocation / re-issuing cycle. |
+| * | Issue Date| DATE  |  |
+| * &#128273;  &#11016; | Empoyee ID| BIGINT  | Exact string match required for reference (upper/lower case, whate spaces, ...). |
+|  | Street Address| VARCHAR(100)  |  |
+|  | Postal Code| VARCHAR(10)  |  |
+|  | City| VARCHAR(100)  |  |
+
+
+##### Indexes 
+| | | |
+|---|---|---|
+| &#128273;  | pk\_Employer Address | ON ID, Empoyee ID|
+
+##### Relationships
+| | | |
+|---|---|---|
+|  | Office Address - Employee Core | ( Empoyee ID ) ref [INSTANCE.Employee Core](#Employee Core) (Employee ID) |
+
+
+
+
 ### Entity INSTANCE.Organization 
 &gt;&gt; review - need for organization entity / credential (in employer role)?
+Could als be derived from issuer information as per issuer registration.
 
 | | | | |
 |---|---|---|---|
@@ -171,6 +124,32 @@ Employment information of a person (employee).
 |  | Street Address| VARCHAR(100)  |  |
 |  | Postal Code| VARCHAR(15)  |  |
 |  | City| VARCHAR(100)  |  |
+
+
+
+
+### Entity INSTANCE.Role 
+Employee role, typically as listed in the internal directory. Example - Client Advisor, Director, Front Unit.
+
+| | | | |
+|---|---|---|---|
+| * &#128273;  | ID| BIGINT  | Technical ID assigned through VC issuing process.\Note - not stable; re-assigned with every revocation / re-issuing cycle. |
+| * | Issue Date| DATE  |  |
+| * &#128273;  &#11016; | Employee ID| VARCHAR(30)  | Exact string match required for reference (upper/lower case, whate spaces, ...). |
+|  | Role| VARCHAR(100)  | &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text. |
+|  | Function| VARCHAR(100)  | &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text. |
+|  | Organisational Unit| VARCHAR(100)  | &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text. |
+
+
+##### Indexes 
+| | | |
+|---|---|---|
+| &#128273;  | pk\_Employee Role | ON ID, Employee ID|
+
+##### Relationships
+| | | |
+|---|---|---|
+|  | Role - Employee Core | ( Employee ID ) ref [INSTANCE.Employee Core](#Employee Core) (Employee ID) |
 
 
 

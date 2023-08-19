@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'   width='960' height='1038' viewBox='0 0 960 1038' >
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'   width='992' height='1038' viewBox='0 0 992 1038' >
   <script type='text/ecmascript'>
   <![CDATA[
   function hghl(el) { for ( var i in el ){ var elem = document.getElementById(el[i]); if ( elem != null ) elem.setAttribute('class','highlight');  }  }
@@ -235,8 +235,8 @@
     <stop offset='100%' stop-color='#F7B8B8' />
   </radialGradient>
 <!-- == Desktop == -->
-<rect x='1' y='1' width='958' height='1036' rx='8' ry='8' style='fill:url(#layoutBgA); stroke:#ccc; stroke-width:.7px; cursor:move;' />
-<rect x='1' y='1' width='958' height='1036' rx='8' ry='8' style='fill:url(#layoutBgEval);' />
+<rect x='1' y='1' width='990' height='1036' rx='8' ry='8' style='fill:url(#layoutBgA); stroke:#ccc; stroke-width:.7px; cursor:move;' />
+<rect x='1' y='1' width='990' height='1036' rx='8' ry='8' style='fill:url(#layoutBgEval);' />
 
 <!-- == Legend == -->
 <g transform='translate(10,10)'>
@@ -250,316 +250,266 @@ DbSchema has a free Community Edition.</title></tspan></text></a>
 
 <g transform='translate(0,110)'>
 <!-- == Fk 'Authorisation_Authorisation - Employee Core' == -->
-<path id='Authorisation_Authorisation - Employee Core'  onmouseover="hghl(['Authorisation_Authorisation - Employee Core','INSTANCE.Authorisation.Employee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Authorisation_Authorisation - Employee Core','INSTANCE.Authorisation.Employee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 496,512L 408,512Q 400,512 400,504L 400,304' >
+<path id='Authorisation_Authorisation - Employee Core'  onmouseover="hghl(['Authorisation_Authorisation - Employee Core','INSTANCE.Authorisation.Employee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Authorisation_Authorisation - Employee Core','INSTANCE.Authorisation.Employee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 528,512L 440,512Q 432,512 432,504L 432,304' >
 	<title>&#x1F517;  Foreign Key Authorisation - Employee Core
 Authorisation ref Employee Core ( Employee ID )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 496,512L 408,512Q 400,512 400,504L 400,304' ><title>&#x1F517;  Foreign Key Authorisation - Employee Core
+<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 528,512L 440,512Q 432,512 432,504L 432,304' ><title>&#x1F517;  Foreign Key Authorisation - Employee Core
 Authorisation ref Employee Core ( Employee ID )</title></path>
-<text x='429' y='507' transform='rotate(0 429,507)' class='relName'>Employee ID</text>
-<!-- == Fk 'Employee Extended_Employee Extended - Employee Core' == -->
-<path id='Employee Extended_Employee Extended - Employee Core'  onmouseover="hghl(['Employee Extended_Employee Extended - Employee Core','INSTANCE.Employee Extended.Employee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employee Extended_Employee Extended - Employee Core','INSTANCE.Employee Extended.Employee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 192,240L 240,240' >
-	<title>&#x1F517;  Foreign Key Employee Extended - Employee Core
-Employee Extended ref Employee Core ( Employee ID )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#ZeroOne)' marker-end='url(#Arrow)'    d='M 192,240L 240,240' ><title>&#x1F517;  Foreign Key Employee Extended - Employee Core
-Employee Extended ref Employee Core ( Employee ID )</title></path>
-<text x='202' y='235' transform='rotate(0 202,235)' class='relName'>Employee ID</text>
-<!-- == Fk 'Employee Role_Employee Role - Employee Core' == -->
-<path id='Employee Role_Employee Role - Employee Core'  onmouseover="hghl(['Employee Role_Employee Role - Employee Core','INSTANCE.Employee Role.Employee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employee Role_Employee Role - Employee Core','INSTANCE.Employee Role.Employee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 288,544L 288,304' >
-	<title>&#x1F517;  Foreign Key Employee Role - Employee Core
-Employee Role ref Employee Core ( Employee ID )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#ZeroOne)' marker-end='url(#Arrow)'    d='M 288,544L 288,304' ><title>&#x1F517;  Foreign Key Employee Role - Employee Core
-Employee Role ref Employee Core ( Employee ID )</title></path>
-<text x='291' y='542' transform='rotate(270 291,542)' class='relName'>Employee ID</text>
-<!-- == Fk 'Employer Address_Employer Address - Employee Core' == -->
-<path id='Employer Address_Employer Address - Employee Core'  onmouseover="hghl(['Employer Address_Employer Address - Employee Core','INSTANCE.Employer Address.Empoyee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employer Address_Employer Address - Employee Core','INSTANCE.Employer Address.Empoyee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 480,336L 440,336Q 432,336 432,328L 432,296Q 432,288 424,288L 416,288' >
-	<title>&#x1F517;  Foreign Key Employer Address - Employee Core
-Employer Address ref Employee Core ( Empoyee ID -&gt; Employee ID )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#ZeroOne)' marker-end='url(#Arrow)'    d='M 480,336L 440,336Q 432,336 432,328L 432,296Q 432,288 424,288L 416,288' ><title>&#x1F517;  Foreign Key Employer Address - Employee Core
-Employer Address ref Employee Core ( Empoyee ID -&gt; Employee ID )</title></path>
-<text x='417' y='331' transform='rotate(0 417,331)' class='relName'>Empoyee ID</text>
+<text x='461' y='507' transform='rotate(0 461,507)' class='relName'>Employee ID</text>
 <!-- == Fk 'Employment_Employment - Employee Core' == -->
-<path id='Employment_Employment - Employee Core'  onmouseover="hghl(['Employment_Employment - Employee Core','INSTANCE.Employment.Employee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employment_Employment - Employee Core','INSTANCE.Employment.Employee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 208,480L 208,280Q 208,272 216,272L 240,272' >
+<path id='Employment_Employment - Employee Core'  onmouseover="hghl(['Employment_Employment - Employee Core','INSTANCE.Employment.Employee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employment_Employment - Employee Core','INSTANCE.Employment.Employee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 224,272L 272,272' >
 	<title>&#x1F517;  Foreign Key Employment - Employee Core
 Employment ref Employee Core ( Employee ID )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#ZeroOne)' marker-end='url(#Arrow)'    d='M 208,480L 208,280Q 208,272 216,272L 240,272' ><title>&#x1F517;  Foreign Key Employment - Employee Core
+<path transform='translate(8,0)' marker-start='url(#ZeroOne)' marker-end='url(#Arrow)'    d='M 224,272L 272,272' ><title>&#x1F517;  Foreign Key Employment - Employee Core
 Employment ref Employee Core ( Employee ID )</title></path>
-<text x='211' y='478' transform='rotate(270 211,478)' class='relName'>Employee ID</text>
+<text x='234' y='267' transform='rotate(0 234,267)' class='relName'>Employee ID</text>
+<!-- == Fk 'Office Address_Office Address - Employee Core' == -->
+<path id='Office Address_Office Address - Employee Core'  onmouseover="hghl(['Office Address_Office Address - Employee Core','INSTANCE.Office Address.Empoyee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Office Address_Office Address - Employee Core','INSTANCE.Office Address.Empoyee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 512,336L 472,336Q 464,336 464,328L 464,296Q 464,288 456,288L 448,288' >
+	<title>&#x1F517;  Foreign Key Office Address - Employee Core
+Office Address ref Employee Core ( Empoyee ID -&gt; Employee ID )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#ZeroOne)' marker-end='url(#Arrow)'    d='M 512,336L 472,336Q 464,336 464,328L 464,296Q 464,288 456,288L 448,288' ><title>&#x1F517;  Foreign Key Office Address - Employee Core
+Office Address ref Employee Core ( Empoyee ID -&gt; Employee ID )</title></path>
+<text x='449' y='331' transform='rotate(0 449,331)' class='relName'>Empoyee ID</text>
+<!-- == Fk 'Role_Role - Employee Core' == -->
+<path id='Role_Role - Employee Core'  onmouseover="hghl(['Role_Role - Employee Core','INSTANCE.Role.Employee ID','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Role_Role - Employee Core','INSTANCE.Role.Employee ID','INSTANCE.Employee Core.Employee ID'])" transform='translate(8,0)' class='unhighlight' d='M 304,480L 304,304' >
+	<title>&#x1F517;  Foreign Key Role - Employee Core
+Role ref Employee Core ( Employee ID )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'    d='M 304,480L 304,304' ><title>&#x1F517;  Foreign Key Role - Employee Core
+Role ref Employee Core ( Employee ID )</title></path>
+<text x='307' y='478' transform='rotate(270 307,478)' class='relName'>Employee ID</text>
 <!-- == Table 'Authorisation' == -->
-<rect id='depict_INSTANCE&#46;Authorisation' class='entity' style='stroke:#7698B9' x='512' y='504' width='160' height='128' />
-<rect x='512' y='504' width='160' height='28' style='stroke-width:0; fill:#F1F5FA'/>
-<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='512' y1='504' x2='672' y2='504'/>
-<a xlink:href='#INSTANCE.Authorisation'><text x='546' y='523' >Authorisation</text><title>Entity INSTANCE.Authorisation</title></a>
-  <use id='nn' x='514' y='541' xlink:href='#nn'/><use id='pk' x='514' y='540' xlink:href='#pk'><title>&#x1F511;  Pk pk_Authorisation ( ID ) </title></use><a xlink:href='#INSTANCE.Authorisation_ID'><text id='INSTANCE&#46;Authorisation&#46;ID' x='531' y='551'>ID</text><title>&#10697;  ID
+<rect id='depict_INSTANCE&#46;Authorisation' class='entity' style='stroke:#7698B9' x='544' y='504' width='160' height='128' />
+<rect x='544' y='504' width='160' height='28' style='stroke-width:0; fill:#F1F5FA'/>
+<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='544' y1='504' x2='704' y2='504'/>
+<a xlink:href='#INSTANCE.Authorisation'><text x='578' y='523' >Authorisation</text><title>Entity INSTANCE.Authorisation</title></a>
+  <use id='nn' x='546' y='541' xlink:href='#nn'/><use id='pk' x='546' y='540' xlink:href='#pk'><title>&#x1F511;  Pk pk_Authorisation ( ID ) </title></use><a xlink:href='#INSTANCE.Authorisation_ID'><text id='INSTANCE&#46;Authorisation&#46;ID' x='563' y='551'>ID</text><title>&#10697;  ID
      * bigint
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Technical ID assigned through VC issuing process.
       Note - not stable; re-assigned with every revocation / re-issuing cycle.</title></a>
-<text x='669' y='548' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='514' y='557' xlink:href='#nn'/><a xlink:href='#INSTANCE.Authorisation_Issue+Date'><text id='INSTANCE&#46;Authorisation&#46;Issue Date' x='531' y='567'>Issue Date</text><title>&#10697;  Issue Date
+<text x='701' y='548' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='546' y='557' xlink:href='#nn'/><a xlink:href='#INSTANCE.Authorisation_Issue+Date'><text id='INSTANCE&#46;Authorisation&#46;Issue Date' x='563' y='567'>Issue Date</text><title>&#10697;  Issue Date
      * date</title></a>
-<text x='669' y='564' text-anchor='end' class='colType'>d</text>  <use id='nn' x='514' y='573' xlink:href='#nn'/><a xlink:href='#INSTANCE.Authorisation_Employee+ID'><text id='INSTANCE&#46;Authorisation&#46;Employee ID' x='531' y='583' onmouseover="hghl(['Authorisation_Authorisation - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Authorisation_Authorisation - Employee Core','INSTANCE.Employee Core.Employee ID'])">Employee ID</text><title>&#10697;  Employee ID
+<text x='701' y='564' text-anchor='end' class='colType'>d</text>  <use id='nn' x='546' y='573' xlink:href='#nn'/><a xlink:href='#INSTANCE.Authorisation_Employee+ID'><text id='INSTANCE&#46;Authorisation&#46;Employee ID' x='563' y='583' onmouseover="hghl(['Authorisation_Authorisation - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Authorisation_Authorisation - Employee Core','INSTANCE.Employee Core.Employee ID'])">Employee ID</text><title>&#10697;  Employee ID
      * varchar(30)
  &#8599; Authorisation( Employee ID )
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Exact string match required for reference (upper/lower case, whate spaces, ...).</title></a>
-<a xlink:href='#INSTANCE.Authorisation.Employee+ID'><use id='fk' x='660' y='572' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Employee ID ) </title></a>
-  <use id='nn' x='514' y='589' xlink:href='#nn'/><use id='null' x='656' y='588' xlink:href='#flag2'/><a xlink:href='#INSTANCE.Authorisation_Authorisation+ID'><text id='INSTANCE&#46;Authorisation&#46;Authorisation ID' x='531' y='599'>Authorisation ID</text><title>&#10697;  Authorisation ID
+<a xlink:href='#INSTANCE.Authorisation.Employee+ID'><use id='fk' x='692' y='572' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Employee ID ) </title></a>
+  <use id='nn' x='546' y='589' xlink:href='#nn'/><use id='null' x='688' y='588' xlink:href='#flag2'/><a xlink:href='#INSTANCE.Authorisation_Authorisation+ID'><text id='INSTANCE&#46;Authorisation&#46;Authorisation ID' x='563' y='599'>Authorisation ID</text><title>&#10697;  Authorisation ID
      * int
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       &gt;&gt; review - separate identifier required?</title></a>
-<text x='669' y='596' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='514' y='605' xlink:href='#nn'/><use id='null' x='656' y='604' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Authorisation_Authorisation+Type'><text id='INSTANCE&#46;Authorisation&#46;Authorisation Type' x='531' y='615'>Authorisation Type</text><title>&#10697;  Authorisation Type
+<text x='701' y='596' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='546' y='605' xlink:href='#nn'/><use id='null' x='688' y='604' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Authorisation_Authorisation+Type'><text id='INSTANCE&#46;Authorisation&#46;Authorisation Type' x='563' y='615'>Authorisation Type</text><title>&#10697;  Authorisation Type
      * varchar(100)
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text.</title></a>
-<text x='669' y='612' text-anchor='end' class='colType'>t</text>
+<text x='701' y='612' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'Employee Core' == -->
-<rect id='depict_INSTANCE&#46;Employee Core' class='entity' style='stroke:#7698B9' x='256' y='104' width='160' height='192' />
-<rect x='256' y='104' width='160' height='28' style='stroke-width:0; fill:#F1F5FA'/>
-<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='256' y1='104' x2='416' y2='104'/>
-<a xlink:href='#INSTANCE.Employee+Core'><text x='285' y='123' >Employee Core</text><title>Entity INSTANCE.Employee Core
+<rect id='depict_INSTANCE&#46;Employee Core' class='entity' style='stroke:#7698B9' x='288' y='104' width='160' height='192' />
+<rect x='288' y='104' width='160' height='28' style='stroke-width:0; fill:#F1F5FA'/>
+<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='288' y1='104' x2='448' y2='104'/>
+<a xlink:href='#INSTANCE.Employee+Core'><text x='317' y='123' >Employee Core</text><title>Entity INSTANCE.Employee Core
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Common core information for employee.
+      Common core information for employee - combination of person and employee information.
       &gt;&gt; review - separation of person (role employee) and employer (organization) information</title></a>
-  <use id='nn' x='258' y='141' xlink:href='#nn'/><use id='unq' x='258' y='140' xlink:href='#unq'><title>&#x1F50D;  Unq pk_Employee Core ( ID ) </title></use><a xlink:href='#INSTANCE.Employee+Core_ID'><text id='INSTANCE&#46;Employee Core&#46;ID' x='275' y='151'>ID</text><title>&#10697;  ID
+  <use id='nn' x='290' y='141' xlink:href='#nn'/><use id='unq' x='290' y='140' xlink:href='#unq'><title>&#x1F50D;  Unq pk_Employee Core ( ID ) </title></use><a xlink:href='#INSTANCE.Employee+Core_ID'><text id='INSTANCE&#46;Employee Core&#46;ID' x='307' y='151'>ID</text><title>&#10697;  ID
      * bigint
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Technical ID assigned through VC issuing process.
       Note - not stable; re-assigned with every revocation / re-issuing cycle.</title></a>
-<text x='413' y='148' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='258' y='157' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Issue+Date'><text id='INSTANCE&#46;Employee Core&#46;Issue Date' x='275' y='167'>Issue Date</text><title>&#10697;  Issue Date
+<text x='445' y='148' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='290' y='157' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Issue+Date'><text id='INSTANCE&#46;Employee Core&#46;Issue Date' x='307' y='167'>Issue Date</text><title>&#10697;  Issue Date
      * date
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Issue of VC.</title></a>
-<text x='413' y='164' text-anchor='end' class='colType'>d</text>  <use id='nn' x='258' y='173' xlink:href='#nn'/><use id='pk' x='258' y='172' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employee Core_0 ( Employee ID ) </title></use><a xlink:href='#INSTANCE.Employee+Core_Employee+ID'><text id='INSTANCE&#46;Employee Core&#46;Employee ID' x='275' y='183' onmouseover="hghl(['Employee Extended_Employee Extended - Employee Core','INSTANCE.Employee Extended.Employee ID','Employment_Employment - Employee Core','INSTANCE.Employment.Employee ID','Employee Role_Employee Role - Employee Core','INSTANCE.Employee Role.Employee ID','Authorisation_Authorisation - Employee Core','INSTANCE.Authorisation.Employee ID','Employer Address_Employer Address - Employee Core','INSTANCE.Employer Address.Empoyee ID'])" onmouseout="uhghl(['Employee Extended_Employee Extended - Employee Core','INSTANCE.Employee Extended.Employee ID','Employment_Employment - Employee Core','INSTANCE.Employment.Employee ID','Employee Role_Employee Role - Employee Core','INSTANCE.Employee Role.Employee ID','Authorisation_Authorisation - Employee Core','INSTANCE.Authorisation.Employee ID','Employer Address_Employer Address - Employee Core','INSTANCE.Employer Address.Empoyee ID'])">Employee ID</text><title>&#10697;  Employee ID
+<text x='445' y='164' text-anchor='end' class='colType'>d</text>  <use id='nn' x='290' y='173' xlink:href='#nn'/><use id='pk' x='290' y='172' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employee Core_0 ( Employee ID ) </title></use><a xlink:href='#INSTANCE.Employee+Core_Employee+ID'><text id='INSTANCE&#46;Employee Core&#46;Employee ID' x='307' y='183' onmouseover="hghl(['Employment_Employment - Employee Core','INSTANCE.Employment.Employee ID','Role_Role - Employee Core','INSTANCE.Role.Employee ID','Authorisation_Authorisation - Employee Core','INSTANCE.Authorisation.Employee ID','Office Address_Office Address - Employee Core','INSTANCE.Office Address.Empoyee ID'])" onmouseout="uhghl(['Employment_Employment - Employee Core','INSTANCE.Employment.Employee ID','Role_Role - Employee Core','INSTANCE.Role.Employee ID','Authorisation_Authorisation - Employee Core','INSTANCE.Authorisation.Employee ID','Office Address_Office Address - Employee Core','INSTANCE.Office Address.Empoyee ID'])">Employee ID</text><title>&#10697;  Employee ID
      * varchar(30)
- &#8601; Employee Extended( Employee ID )
  &#8601; Employment( Employee ID )
- &#8601; Employee Role( Employee ID )
+ &#8601; Role( Employee ID )
  &#8601; Authorisation( Employee ID )
- &#8601; Employer Address( Employee ID )
+ &#8601; Office Address( Employee ID )
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       ID assigned by employer.
       
       Employee ID must be known to issue certificate - used as reference by extended certificates.</title></a>
-<a xlink:href='#INSTANCE.Employee+Core.Employee+ID'><use id='ref' x='404' y='172' xlink:href='#ref'/><title>&#x1F517;  Referred by Employee Extended ( Employee ID ) 
-Referred by Employment ( Employee ID ) 
-Referred by Employee Role ( Employee ID ) 
+<a xlink:href='#INSTANCE.Employee+Core.Employee+ID'><use id='ref' x='436' y='172' xlink:href='#ref'/><title>&#x1F517;  Referred by Employment ( Employee ID ) 
+Referred by Role ( Employee ID ) 
 Referred by Authorisation ( Employee ID ) 
-Referred by Employer Address ( Empoyee ID -&gt; Employee ID ) </title></a>
-  <use id='nn' x='258' y='189' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Name'><text id='INSTANCE&#46;Employee Core&#46;Name' x='275' y='199'>Name</text><title>&#10697;  Name
+Referred by Office Address ( Empoyee ID -&gt; Employee ID ) </title></a>
+  <use id='nn' x='290' y='189' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Name'><text id='INSTANCE&#46;Employee Core&#46;Name' x='307' y='199'>Name</text><title>&#10697;  Name
      * varchar(100)
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Aliases - last name, family name</title></a>
-<text x='413' y='196' text-anchor='end' class='colType'>t</text>  <use id='nn' x='258' y='205' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Given+Name'><text id='INSTANCE&#46;Employee Core&#46;Given Name' x='275' y='215'>Given Name</text><title>&#10697;  Given Name
+<text x='445' y='196' text-anchor='end' class='colType'>t</text>  <use id='nn' x='290' y='205' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Given+Name'><text id='INSTANCE&#46;Employee Core&#46;Given Name' x='307' y='215'>Given Name</text><title>&#10697;  Given Name
      * varchar(100)
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Alias - first name</title></a>
-<text x='413' y='212' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Employee+Core_Birth+Date'><text id='INSTANCE&#46;Employee Core&#46;Birth Date' x='275' y='231'>Birth Date</text><title>&#10697;  Birth Date
+<text x='445' y='212' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Employee+Core_Birth+Date'><text id='INSTANCE&#46;Employee Core&#46;Birth Date' x='307' y='231'>Birth Date</text><title>&#10697;  Birth Date
      date
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Alias - date of birth (DOB)</title></a>
-<text x='413' y='228' text-anchor='end' class='colType'>d</text>  <use id='nn' x='258' y='237' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Employer'><text id='INSTANCE&#46;Employee Core&#46;Employer' x='275' y='247'>Employer</text><title>&#10697;  Employer
+<text x='445' y='228' text-anchor='end' class='colType'>d</text>  <use id='nn' x='290' y='237' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Employer'><text id='INSTANCE&#46;Employee Core&#46;Employer' x='307' y='247'>Employer</text><title>&#10697;  Employer
      * varchar(100)
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Employer name (note - alternatively, an employer number could be used).</title></a>
-<text x='413' y='244' text-anchor='end' class='colType'>t</text>  <use id='nn' x='258' y='253' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Employment+Date'><text id='INSTANCE&#46;Employee Core&#46;Employment Date' x='275' y='263'>Employment Date</text><title>&#10697;  Employment Date
+<text x='445' y='244' text-anchor='end' class='colType'>t</text>  <use id='nn' x='290' y='253' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Core_Employment+Date'><text id='INSTANCE&#46;Employee Core&#46;Employment Date' x='307' y='263'>Employment Date</text><title>&#10697;  Employment Date
      * date
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Based on contract.</title></a>
-<text x='413' y='260' text-anchor='end' class='colType'>d</text>  <a xlink:href='#INSTANCE.Employee+Core_Leave+Date'><text id='INSTANCE&#46;Employee Core&#46;Leave Date' x='275' y='279'>Leave Date</text><title>&#10697;  Leave Date
+<text x='445' y='260' text-anchor='end' class='colType'>d</text>  <a xlink:href='#INSTANCE.Employee+Core_Leave+Date'><text id='INSTANCE&#46;Employee Core&#46;Leave Date' x='307' y='279'>Leave Date</text><title>&#10697;  Leave Date
      date</title></a>
-<text x='413' y='276' text-anchor='end' class='colType'>d</text>
-<!-- == Table 'Employee Extended' == -->
-<rect id='depict_INSTANCE&#46;Employee Extended' class='entity' style='stroke:#7698B9' x='48' y='216' width='144' height='192' />
-<rect x='48' y='216' width='144' height='28' style='stroke-width:0; fill:#F1F5FA'/>
-<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='48' y1='216' x2='192' y2='216'/>
-<a xlink:href='#INSTANCE.Employee+Extended'><text x='54' y='235' >Employee Extended</text><title>Entity INSTANCE.Employee Extended</title></a>
-  <use id='nn' x='50' y='253' xlink:href='#nn'/><use id='pk' x='50' y='252' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employee Extended ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Employee+Extended_ID'><text id='INSTANCE&#46;Employee Extended&#46;ID' x='67' y='263'>ID</text><title>&#10697;  ID
-     * bigint
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Technical ID assigned through VC issuing process.
-      Note - not stable; re-assigned with every revocation / re-issuing cycle.</title></a>
-<text x='189' y='260' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='50' y='269' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Extended_Issue+Date'><text id='INSTANCE&#46;Employee Extended&#46;Issue Date' x='67' y='279'>Issue Date</text><title>&#10697;  Issue Date
-     * date</title></a>
-<text x='189' y='276' text-anchor='end' class='colType'>d</text>  <use id='nn' x='50' y='285' xlink:href='#nn'/><use id='pk' x='50' y='284' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employee Extended ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Employee+Extended_Employee+ID'><text id='INSTANCE&#46;Employee Extended&#46;Employee ID' x='67' y='295' onmouseover="hghl(['Employee Extended_Employee Extended - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employee Extended_Employee Extended - Employee Core','INSTANCE.Employee Core.Employee ID'])">Employee ID</text><title>&#10697;  Employee ID
-     * varchar(30)
- &#8599; Employee Extended( Employee ID )
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Exact string match required for reference (upper/lower case, whate spaces, ...).</title></a>
-<a xlink:href='#INSTANCE.Employee+Extended.Employee+ID'><use id='fk' x='180' y='284' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Employee ID ) </title></a>
-  <use id='nn' x='50' y='301' xlink:href='#nn'/><use id='null' x='176' y='300' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Employee+Extended_Employer'><text id='INSTANCE&#46;Employee Extended&#46;Employer' x='67' y='311'>Employer</text><title>&#10697;  Employer
-     * bigint
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Redundant onformation of «Employee Core».
-      &gt;&gt; Review - remove</title></a>
-<text x='189' y='308' text-anchor='end' class='colType'>&#35;</text>  <a xlink:href='#INSTANCE.Employee+Extended_Operation+Site'><text id='INSTANCE&#46;Employee Extended&#46;Operation Site' x='67' y='327'>Operation Site</text><title>&#10697;  Operation Site
-     varchar(100)
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Free text - address or similar.</title></a>
-<text x='189' y='324' text-anchor='end' class='colType'>t</text>  <use id='null' x='176' y='332' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Employee+Extended_Activity+Tyoe'><text id='INSTANCE&#46;Employee Extended&#46;Activity Tyoe' x='67' y='343'>Activity Tyoe</text><title>&#10697;  Activity Tyoe
-     varchar(100)
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Free text.
-      &gt;&gt; Review - optionally based on list of values</title></a>
-<text x='189' y='340' text-anchor='end' class='colType'>t</text>  <use id='null' x='176' y='348' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Employee+Extended_Contact+Name'><text id='INSTANCE&#46;Employee Extended&#46;Contact Name' x='67' y='359'>Contact Name</text><title>&#10697;  Contact Name
-     varchar(100)
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      First name, last name
-      &gt;&gt; Review - what is the exact purpose of the contact? More than one contact for different activities?
-      &gt;&gt; Review - reference to person</title></a>
-<text x='189' y='356' text-anchor='end' class='colType'>t</text>  <use id='null' x='176' y='364' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Employee+Extended_Contact+Phone'><text id='INSTANCE&#46;Employee Extended&#46;Contact Phone' x='67' y='375'>Contact Phone</text><title>&#10697;  Contact Phone
-     varchar(100)
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      &gt;&gt; Review - reference to person</title></a>
-<text x='189' y='372' text-anchor='end' class='colType'>t</text>  <use id='null' x='176' y='380' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Employee+Extended_Contact+Mail'><text id='INSTANCE&#46;Employee Extended&#46;Contact Mail' x='67' y='391'>Contact Mail</text><title>&#10697;  Contact Mail
-     varchar(100)
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      &gt;&gt; Review - reference to person</title></a>
-<text x='189' y='388' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'Employee Role' == -->
-<rect id='depict_INSTANCE&#46;Employee Role' class='entity' style='stroke:#7698B9' x='272' y='552' width='176' height='144' />
-<rect x='272' y='552' width='176' height='28' style='stroke-width:0; fill:#F1F5FA'/>
-<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='272' y1='552' x2='448' y2='552'/>
-<a xlink:href='#INSTANCE.Employee+Role'><text x='310' y='571' >Employee Role</text><title>Entity INSTANCE.Employee Role</title></a>
-  <use id='nn' x='274' y='589' xlink:href='#nn'/><use id='pk' x='274' y='588' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employee Role ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Employee+Role_ID'><text id='INSTANCE&#46;Employee Role&#46;ID' x='291' y='599'>ID</text><title>&#10697;  ID
-     * bigint
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Technical ID assigned through VC issuing process.
-      Note - not stable; re-assigned with every revocation / re-issuing cycle.</title></a>
-<text x='445' y='596' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='274' y='605' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employee+Role_Issue+Date'><text id='INSTANCE&#46;Employee Role&#46;Issue Date' x='291' y='615'>Issue Date</text><title>&#10697;  Issue Date
-     * date</title></a>
-<text x='445' y='612' text-anchor='end' class='colType'>d</text>  <use id='nn' x='274' y='621' xlink:href='#nn'/><use id='pk' x='274' y='620' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employee Role ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Employee+Role_Employee+ID'><text id='INSTANCE&#46;Employee Role&#46;Employee ID' x='291' y='631' onmouseover="hghl(['Employee Role_Employee Role - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employee Role_Employee Role - Employee Core','INSTANCE.Employee Core.Employee ID'])">Employee ID</text><title>&#10697;  Employee ID
-     * varchar(30)
- &#8599; Employee Role( Employee ID )
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Exact string match required for reference (upper/lower case, whate spaces, ...).</title></a>
-<a xlink:href='#INSTANCE.Employee+Role.Employee+ID'><use id='fk' x='436' y='620' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Employee ID ) </title></a>
-  <use id='null' x='432' y='636' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Employee+Role_Role'><text id='INSTANCE&#46;Employee Role&#46;Role' x='291' y='647'>Role</text><title>&#10697;  Role
-     varchar(100)
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text.</title></a>
-<text x='445' y='644' text-anchor='end' class='colType'>t</text>  <use id='null' x='432' y='652' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Employee+Role_Function'><text id='INSTANCE&#46;Employee Role&#46;Function' x='291' y='663'>Function</text><title>&#10697;  Function
-     varchar(100)
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text.</title></a>
-<text x='445' y='660' text-anchor='end' class='colType'>t</text>  <use id='null' x='432' y='668' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Employee+Role_Organisational+Unit'><text id='INSTANCE&#46;Employee Role&#46;Organisational Unit' x='291' y='679'>Organisational Unit</text><title>&#10697;  Organisational Unit
-     varchar(100)
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text.</title></a>
-<text x='445' y='676' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'Employer Address' == -->
-<rect id='depict_INSTANCE&#46;Employer Address' class='entity' style='stroke:#7698B9' x='496' y='328' width='144' height='144' />
-<rect x='496' y='328' width='144' height='28' style='stroke-width:0; fill:#F1F5FA'/>
-<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='496' y1='328' x2='640' y2='328'/>
-<a xlink:href='#INSTANCE.Employer+Address'><text x='509' y='347' >Employer Address</text><title>Entity INSTANCE.Employer Address</title></a>
-  <use id='nn' x='498' y='365' xlink:href='#nn'/><use id='pk' x='498' y='364' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employer Address ( ID, Empoyee ID ) </title></use><a xlink:href='#INSTANCE.Employer+Address_ID'><text id='INSTANCE&#46;Employer Address&#46;ID' x='515' y='375'>ID</text><title>&#10697;  ID
-     * bigint
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Technical ID assigned through VC issuing process.
-      Note - not stable; re-assigned with every revocation / re-issuing cycle.</title></a>
-<text x='637' y='372' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='498' y='381' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employer+Address_Issue+Date'><text id='INSTANCE&#46;Employer Address&#46;Issue Date' x='515' y='391'>Issue Date</text><title>&#10697;  Issue Date
-     * date</title></a>
-<text x='637' y='388' text-anchor='end' class='colType'>d</text>  <use id='nn' x='498' y='397' xlink:href='#nn'/><use id='pk' x='498' y='396' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employer Address ( ID, Empoyee ID ) </title></use><a xlink:href='#INSTANCE.Employer+Address_Empoyee+ID'><text id='INSTANCE&#46;Employer Address&#46;Empoyee ID' x='515' y='407' onmouseover="hghl(['Employer Address_Employer Address - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employer Address_Employer Address - Employee Core','INSTANCE.Employee Core.Employee ID'])">Empoyee ID</text><title>&#10697;  Empoyee ID
-     * bigint
- &#8599; Employer Address( Employee ID )
- ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      Exact string match required for reference (upper/lower case, whate spaces, ...).</title></a>
-<a xlink:href='#INSTANCE.Employer+Address.Empoyee+ID'><use id='fk' x='628' y='396' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Empoyee ID -&gt; Employee ID ) </title></a>
-  <a xlink:href='#INSTANCE.Employer+Address_Street+Address'><text id='INSTANCE&#46;Employer Address&#46;Street Address' x='515' y='423'>Street Address</text><title>&#10697;  Street Address
-     varchar(100)</title></a>
-<text x='637' y='420' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Employer+Address_Postal+Code'><text id='INSTANCE&#46;Employer Address&#46;Postal Code' x='515' y='439'>Postal Code</text><title>&#10697;  Postal Code
-     varchar(10)</title></a>
-<text x='637' y='436' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Employer+Address_City'><text id='INSTANCE&#46;Employer Address&#46;City' x='515' y='455'>City</text><title>&#10697;  City
-     varchar(100)</title></a>
-<text x='637' y='452' text-anchor='end' class='colType'>t</text>
+<text x='445' y='276' text-anchor='end' class='colType'>d</text>
 <!-- == Table 'Employment' == -->
-<rect id='depict_INSTANCE&#46;Employment' class='entity' style='stroke:#7698B9' x='48' y='488' width='176' height='176' />
-<rect x='48' y='488' width='176' height='28' style='stroke-width:0; fill:#F1F5FA'/>
-<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='48' y1='488' x2='224' y2='488'/>
-<a xlink:href='#INSTANCE.Employment'><text x='93' y='507' >Employment</text><title>Entity INSTANCE.Employment
+<rect id='depict_INSTANCE&#46;Employment' class='entity' style='stroke:#7698B9' x='48' y='248' width='176' height='176' />
+<rect x='48' y='248' width='176' height='28' style='stroke-width:0; fill:#F1F5FA'/>
+<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='48' y1='248' x2='224' y2='248'/>
+<a xlink:href='#INSTANCE.Employment'><text x='93' y='267' >Employment</text><title>Entity INSTANCE.Employment
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Employment information of a person (employee).</title></a>
-  <use id='nn' x='50' y='525' xlink:href='#nn'/><use id='pk' x='50' y='524' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employment ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Employment_ID'><text id='INSTANCE&#46;Employment&#46;ID' x='67' y='535'>ID</text><title>&#10697;  ID
+  <use id='nn' x='50' y='285' xlink:href='#nn'/><use id='pk' x='50' y='284' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employment ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Employment_ID'><text id='INSTANCE&#46;Employment&#46;ID' x='67' y='295'>ID</text><title>&#10697;  ID
      * bigint
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Technical ID assigned through VC issuing process.
       Note - not stable; re-assigned with every revocation / re-issuing cycle.</title></a>
-<text x='221' y='532' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='50' y='541' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employment_Issue+Date'><text id='INSTANCE&#46;Employment&#46;Issue Date' x='67' y='551'>Issue Date</text><title>&#10697;  Issue Date
+<text x='221' y='292' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='50' y='301' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employment_Issue+Date'><text id='INSTANCE&#46;Employment&#46;Issue Date' x='67' y='311'>Issue Date</text><title>&#10697;  Issue Date
      * date</title></a>
-<text x='221' y='548' text-anchor='end' class='colType'>d</text>  <use id='nn' x='50' y='557' xlink:href='#nn'/><use id='pk' x='50' y='556' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employment ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Employment_Employee+ID'><text id='INSTANCE&#46;Employment&#46;Employee ID' x='67' y='567' onmouseover="hghl(['Employment_Employment - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employment_Employment - Employee Core','INSTANCE.Employee Core.Employee ID'])">Employee ID</text><title>&#10697;  Employee ID
+<text x='221' y='308' text-anchor='end' class='colType'>d</text>  <use id='nn' x='50' y='317' xlink:href='#nn'/><use id='pk' x='50' y='316' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employment ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Employment_Employee+ID'><text id='INSTANCE&#46;Employment&#46;Employee ID' x='67' y='327' onmouseover="hghl(['Employment_Employment - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Employment_Employment - Employee Core','INSTANCE.Employee Core.Employee ID'])">Employee ID</text><title>&#10697;  Employee ID
      * varchar(30)
  &#8599; Employment( Employee ID )
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Exact string match required for reference (upper/lower case, whate spaces, ...).</title></a>
-<a xlink:href='#INSTANCE.Employment.Employee+ID'><use id='fk' x='212' y='556' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Employee ID ) </title></a>
-  <use id='nn' x='50' y='573' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employment_Contract+Type'><text id='INSTANCE&#46;Employment&#46;Contract Type' x='67' y='583'>Contract Type</text><title>&#10697;  Contract Type
+<a xlink:href='#INSTANCE.Employment.Employee+ID'><use id='fk' x='212' y='316' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Employee ID ) </title></a>
+  <use id='nn' x='50' y='333' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employment_Contract+Type'><text id='INSTANCE&#46;Employment&#46;Contract Type' x='67' y='343'>Contract Type</text><title>&#10697;  Contract Type
      * enum(up to  364 days, 365 days and more)</title></a>
-<text x='221' y='580' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='589' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employment_Weekly+Work+Hours'><text id='INSTANCE&#46;Employment&#46;Weekly Work Hours' x='67' y='599'>Weekly Work Hours</text><title>&#10697;  Weekly Work Hours
+<text x='221' y='340' text-anchor='end' class='colType'>t</text>  <use id='nn' x='50' y='349' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employment_Weekly+Work+Hours'><text id='INSTANCE&#46;Employment&#46;Weekly Work Hours' x='67' y='359'>Weekly Work Hours</text><title>&#10697;  Weekly Work Hours
      * int
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       According to contract.</title></a>
-<text x='221' y='596' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='50' y='605' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employment_Salary'><text id='INSTANCE&#46;Employment&#46;Salary' x='67' y='615'>Salary</text><title>&#10697;  Salary
+<text x='221' y='356' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='50' y='365' xlink:href='#nn'/><a xlink:href='#INSTANCE.Employment_Salary'><text id='INSTANCE&#46;Employment&#46;Salary' x='67' y='375'>Salary</text><title>&#10697;  Salary
      * bigint
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Annual base salary, CHF.</title></a>
-<text x='221' y='612' text-anchor='end' class='colType'>&#35;</text>  <a xlink:href='#INSTANCE.Employment_Entry+Date'><text id='INSTANCE&#46;Employment&#46;Entry Date' x='67' y='631'>Entry Date</text><title>&#10697;  Entry Date
+<text x='221' y='372' text-anchor='end' class='colType'>&#35;</text>  <a xlink:href='#INSTANCE.Employment_Entry+Date'><text id='INSTANCE&#46;Employment&#46;Entry Date' x='67' y='391'>Entry Date</text><title>&#10697;  Entry Date
      date
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       First working day.</title></a>
-<text x='221' y='628' text-anchor='end' class='colType'>d</text>  <a xlink:href='#INSTANCE.Employment_Risk+Group'><text id='INSTANCE&#46;Employment&#46;Risk Group' x='67' y='647'>Risk Group</text><title>&#10697;  Risk Group
+<text x='221' y='388' text-anchor='end' class='colType'>d</text>  <a xlink:href='#INSTANCE.Employment_Risk+Group'><text id='INSTANCE&#46;Employment&#46;Risk Group' x='67' y='407'>Risk Group</text><title>&#10697;  Risk Group
      varchar(50)
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Official risk classification as provided by insurance industry.</title></a>
-<text x='221' y='644' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'Organization' == -->
-<rect id='depict_INSTANCE&#46;Organization' class='entity' style='stroke:#7698B9' x='544' y='152' width='144' height='144' />
-<rect x='544' y='152' width='144' height='28' style='stroke-width:0; fill:#F1F5FA'/>
-<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='544' y1='152' x2='688' y2='152'/>
-<a xlink:href='#INSTANCE.Organization'><text x='572' y='171' >Organization</text><title>Entity INSTANCE.Organization
+<text x='221' y='404' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'Office Address' == -->
+<rect id='depict_INSTANCE&#46;Office Address' class='entity' style='stroke:#7698B9' x='528' y='328' width='144' height='144' />
+<rect x='528' y='328' width='144' height='28' style='stroke-width:0; fill:#F1F5FA'/>
+<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='528' y1='328' x2='672' y2='328'/>
+<a xlink:href='#INSTANCE.Office+Address'><text x='551' y='347' >Office Address</text><title>Entity INSTANCE.Office Address
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-      &gt;&gt; review - need for organization entity / credential (in employer role)?</title></a>
-  <a xlink:href='#INSTANCE.Organization_ID'><text id='INSTANCE&#46;Organization&#46;ID' x='563' y='199'>ID</text><title>&#10697;  ID
+      Employee office address, typically as of internal directory.
+      Te be differentiated from offical organization address (as of trade register), mailing address, delivery address., ...</title></a>
+  <use id='nn' x='530' y='365' xlink:href='#nn'/><use id='pk' x='530' y='364' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employer Address ( ID, Empoyee ID ) </title></use><a xlink:href='#INSTANCE.Office+Address_ID'><text id='INSTANCE&#46;Office Address&#46;ID' x='547' y='375'>ID</text><title>&#10697;  ID
+     * bigint
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      Technical ID assigned through VC issuing process.
+      Note - not stable; re-assigned with every revocation / re-issuing cycle.</title></a>
+<text x='669' y='372' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='530' y='381' xlink:href='#nn'/><a xlink:href='#INSTANCE.Office+Address_Issue+Date'><text id='INSTANCE&#46;Office Address&#46;Issue Date' x='547' y='391'>Issue Date</text><title>&#10697;  Issue Date
+     * date</title></a>
+<text x='669' y='388' text-anchor='end' class='colType'>d</text>  <use id='nn' x='530' y='397' xlink:href='#nn'/><use id='pk' x='530' y='396' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employer Address ( ID, Empoyee ID ) </title></use><a xlink:href='#INSTANCE.Office+Address_Empoyee+ID'><text id='INSTANCE&#46;Office Address&#46;Empoyee ID' x='547' y='407' onmouseover="hghl(['Office Address_Office Address - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Office Address_Office Address - Employee Core','INSTANCE.Employee Core.Employee ID'])">Empoyee ID</text><title>&#10697;  Empoyee ID
+     * bigint
+ &#8599; Office Address( Employee ID )
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      Exact string match required for reference (upper/lower case, whate spaces, ...).</title></a>
+<a xlink:href='#INSTANCE.Office+Address.Empoyee+ID'><use id='fk' x='660' y='396' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Empoyee ID -&gt; Employee ID ) </title></a>
+  <a xlink:href='#INSTANCE.Office+Address_Street+Address'><text id='INSTANCE&#46;Office Address&#46;Street Address' x='547' y='423'>Street Address</text><title>&#10697;  Street Address
+     varchar(100)</title></a>
+<text x='669' y='420' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Office+Address_Postal+Code'><text id='INSTANCE&#46;Office Address&#46;Postal Code' x='547' y='439'>Postal Code</text><title>&#10697;  Postal Code
+     varchar(10)</title></a>
+<text x='669' y='436' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Office+Address_City'><text id='INSTANCE&#46;Office Address&#46;City' x='547' y='455'>City</text><title>&#10697;  City
+     varchar(100)</title></a>
+<text x='669' y='452' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'Organization' == -->
+<rect id='depict_INSTANCE&#46;Organization' class='entity' style='stroke:#7698B9' x='576' y='152' width='144' height='144' />
+<rect x='576' y='152' width='144' height='28' style='stroke-width:0; fill:#F1F5FA'/>
+<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='576' y1='152' x2='720' y2='152'/>
+<a xlink:href='#INSTANCE.Organization'><text x='604' y='171' >Organization</text><title>Entity INSTANCE.Organization
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      &gt;&gt; review - need for organization entity / credential (in employer role)?
+      Could als be derived from issuer information as per issuer registration.</title></a>
+  <a xlink:href='#INSTANCE.Organization_ID'><text id='INSTANCE&#46;Organization&#46;ID' x='595' y='199'>ID</text><title>&#10697;  ID
      bigint
  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
       Technical ID assigned through VC issuing process.
       Note - not stable; re-assigned with every revocation / re-issuing</title></a>
-<text x='685' y='196' text-anchor='end' class='colType'>&#35;</text>  <a xlink:href='#INSTANCE.Organization_Issue+Date'><text id='INSTANCE&#46;Organization&#46;Issue Date' x='563' y='215'>Issue Date</text><title>&#10697;  Issue Date
+<text x='717' y='196' text-anchor='end' class='colType'>&#35;</text>  <a xlink:href='#INSTANCE.Organization_Issue+Date'><text id='INSTANCE&#46;Organization&#46;Issue Date' x='595' y='215'>Issue Date</text><title>&#10697;  Issue Date
      date</title></a>
-<text x='685' y='212' text-anchor='end' class='colType'>d</text>  <use id='nn' x='546' y='221' xlink:href='#nn'/><a xlink:href='#INSTANCE.Organization_Name'><text id='INSTANCE&#46;Organization&#46;Name' x='563' y='231'>Name</text><title>&#10697;  Name
+<text x='717' y='212' text-anchor='end' class='colType'>d</text>  <use id='nn' x='578' y='221' xlink:href='#nn'/><a xlink:href='#INSTANCE.Organization_Name'><text id='INSTANCE&#46;Organization&#46;Name' x='595' y='231'>Name</text><title>&#10697;  Name
      * varchar(100)</title></a>
-<text x='685' y='228' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Organization_Street+Address'><text id='INSTANCE&#46;Organization&#46;Street Address' x='563' y='247'>Street Address</text><title>&#10697;  Street Address
+<text x='717' y='228' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Organization_Street+Address'><text id='INSTANCE&#46;Organization&#46;Street Address' x='595' y='247'>Street Address</text><title>&#10697;  Street Address
      varchar(100)</title></a>
-<text x='685' y='244' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Organization_Postal+Code'><text id='INSTANCE&#46;Organization&#46;Postal Code' x='563' y='263'>Postal Code</text><title>&#10697;  Postal Code
+<text x='717' y='244' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Organization_Postal+Code'><text id='INSTANCE&#46;Organization&#46;Postal Code' x='595' y='263'>Postal Code</text><title>&#10697;  Postal Code
      varchar(15)</title></a>
-<text x='685' y='260' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Organization_City'><text id='INSTANCE&#46;Organization&#46;City' x='563' y='279'>City</text><title>&#10697;  City
+<text x='717' y='260' text-anchor='end' class='colType'>t</text>  <a xlink:href='#INSTANCE.Organization_City'><text id='INSTANCE&#46;Organization&#46;City' x='595' y='279'>City</text><title>&#10697;  City
      varchar(100)</title></a>
-<text x='685' y='276' text-anchor='end' class='colType'>t</text>
+<text x='717' y='276' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'Role' == -->
+<rect id='depict_INSTANCE&#46;Role' class='entity' style='stroke:#7698B9' x='224' y='488' width='176' height='144' />
+<rect x='224' y='488' width='176' height='28' style='stroke-width:0; fill:#F1F5FA'/>
+<line class='topLine' style='stroke:#175898;' stroke-linecap='round' x1='224' y1='488' x2='400' y2='488'/>
+<a xlink:href='#INSTANCE.Role'><text x='295' y='507' >Role</text><title>Entity INSTANCE.Role
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      Employee role, typically as listed in the internal directory. Example - Client Advisor, Director, Front Unit.</title></a>
+  <use id='nn' x='226' y='525' xlink:href='#nn'/><use id='pk' x='226' y='524' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employee Role ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Role_ID'><text id='INSTANCE&#46;Role&#46;ID' x='243' y='535'>ID</text><title>&#10697;  ID
+     * bigint
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      Technical ID assigned through VC issuing process.
+      Note - not stable; re-assigned with every revocation / re-issuing cycle.</title></a>
+<text x='397' y='532' text-anchor='end' class='colType'>&#35;</text>  <use id='nn' x='226' y='541' xlink:href='#nn'/><a xlink:href='#INSTANCE.Role_Issue+Date'><text id='INSTANCE&#46;Role&#46;Issue Date' x='243' y='551'>Issue Date</text><title>&#10697;  Issue Date
+     * date</title></a>
+<text x='397' y='548' text-anchor='end' class='colType'>d</text>  <use id='nn' x='226' y='557' xlink:href='#nn'/><use id='pk' x='226' y='556' xlink:href='#pk'><title>&#x1F511;  Pk pk_Employee Role ( ID, Employee ID ) </title></use><a xlink:href='#INSTANCE.Role_Employee+ID'><text id='INSTANCE&#46;Role&#46;Employee ID' x='243' y='567' onmouseover="hghl(['Role_Role - Employee Core','INSTANCE.Employee Core.Employee ID'])" onmouseout="uhghl(['Role_Role - Employee Core','INSTANCE.Employee Core.Employee ID'])">Employee ID</text><title>&#10697;  Employee ID
+     * varchar(30)
+ &#8599; Role( Employee ID )
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      Exact string match required for reference (upper/lower case, whate spaces, ...).</title></a>
+<a xlink:href='#INSTANCE.Role.Employee+ID'><use id='fk' x='388' y='556' xlink:href='#fk'/><title>&#x1F517;  References Employee Core ( Employee ID ) </title></a>
+  <use id='null' x='384' y='572' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Role_Role'><text id='INSTANCE&#46;Role&#46;Role' x='243' y='583'>Role</text><title>&#10697;  Role
+     varchar(100)
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text.</title></a>
+<text x='397' y='580' text-anchor='end' class='colType'>t</text>  <use id='null' x='384' y='588' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Role_Function'><text id='INSTANCE&#46;Role&#46;Function' x='243' y='599'>Function</text><title>&#10697;  Function
+     varchar(100)
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text.</title></a>
+<text x='397' y='596' text-anchor='end' class='colType'>t</text>  <use id='null' x='384' y='604' xlink:href='#flag1'/><a xlink:href='#INSTANCE.Role_Organisational+Unit'><text id='INSTANCE&#46;Role&#46;Organisational Unit' x='243' y='615'>Organisational Unit</text><title>&#10697;  Organisational Unit
+     varchar(100)
+ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+      &gt;&gt; Review - valid value set? Alternatively use predefined code instead of free text.</title></a>
+<text x='397' y='612' text-anchor='end' class='colType'>t</text>
 <!-- == Callout == -->
-<rect class='callout' x='176' y='32' width='592' height='56' rx='16' ry='16'  />
-<text x='200' y='32' class='callout'>
-    <tspan x='180.000000' dx='8' dy='20'>Common core information for employee&#46;</tspan>
-    <tspan x='180.000000' dx='8' dy='20'>&gt;&gt; review &#45; separation of person &#40;role employee&#41; and employer &#40;organization&#41; information</tspan>
+<rect class='callout' x='208' y='32' width='608' height='56' rx='16' ry='16'  />
+<text x='232' y='32' class='callout'>
+    <tspan x='212.000000' dx='8' dy='20'>Common core information for employee &#45; combination of person and employee information&#46;</tspan>
+    <tspan x='212.000000' dx='8' dy='20'>&gt;&gt; review &#45; separation of person &#40;role employee&#41; and employer &#40;organization&#41; information</tspan>
 </text>
-<use x='192' y='88' xlink:href='#calloutArrowDown'/>
+<use x='224' y='88' xlink:href='#calloutArrowDown'/>
 
 <!-- == Callout == -->
-<rect class='callout' x='448' y='96' width='480' height='36' rx='16' ry='16'  />
-<text x='472' y='96' class='callout'>
-    <tspan x='452.000000' dx='8' dy='20'>&gt;&gt; review &#45; need for organization entity &#47; credential &#40;in employer role&#41;&#63;</tspan>
+<rect class='callout' x='480' y='96' width='480' height='56' rx='16' ry='16'  />
+<text x='504' y='96' class='callout'>
+    <tspan x='484.000000' dx='8' dy='20'>&gt;&gt; review &#45; need for organization entity &#47; credential &#40;in employer role&#41;&#63;</tspan>
+    <tspan x='484.000000' dx='8' dy='20'>Could als be derived from issuer information as per issuer registration&#46;</tspan>
 </text>
-<use x='464' y='132' xlink:href='#calloutArrowDown'/>
+<use x='496' y='152' xlink:href='#calloutArrowDown'/>
 
 <!-- == Shape == -->
-<rect style='fill:url(#shape16711680); stroke-width:0;filter:url(#shadow);'  class='shape' x='48' y='720' width='576' height='160' rx='16' ry='16' />
-<text x='56' y='744' class='callout'>
-    <tspan x='52' dx='8' dy='20'>Note on value sets&#58;</tspan>
-    <tspan x='52' dx='8' dy='20'>In this locial schema&#44; attributes with given value sets are represented as free text&#46;</tspan>
-    <tspan x='52' dx='8' dy='20'>This is acceptable for plain internal informational purposes&#46;</tspan>
-    <tspan x='52' dx='8' dy='20'>Nevertheless&#44; in the phyiscal schema&#44; tables with valid values shall be referenced&#46;</tspan>
-    <tspan x='52' dx='8' dy='20'>In case of  information exchange with external organizations&#44;</tspan>
-    <tspan x='52' dx='8' dy='20'>semantic interoperability must be ensured through mutually agreed value sets&#46;</tspan>
+<rect style='fill:url(#shape16711680); stroke-width:0;filter:url(#shadow);'  class='shape' x='80' y='720' width='576' height='160' rx='16' ry='16' />
+<text x='88' y='744' class='callout'>
+    <tspan x='84' dx='8' dy='20'>Note on value sets&#58;</tspan>
+    <tspan x='84' dx='8' dy='20'>In this locial schema&#44; attributes with given value sets are represented as free text&#46;</tspan>
+    <tspan x='84' dx='8' dy='20'>This is acceptable for plain internal informational purposes&#46;</tspan>
+    <tspan x='84' dx='8' dy='20'>Nevertheless&#44; in the phyiscal schema&#44; tables with valid values shall be referenced&#46;</tspan>
+    <tspan x='84' dx='8' dy='20'>In case of information exchange with external organizations&#44;</tspan>
+    <tspan x='84' dx='8' dy='20'>semantic interoperability must be ensured through mutually agreed value sets&#46;</tspan>
 </text>
 </g></svg>
